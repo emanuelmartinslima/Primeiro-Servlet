@@ -23,8 +23,7 @@ public class DemoServlet extends HttpServlet {
 		PrintWriter pw = res.getWriter();
 		
 		pw.println("<html><body style='background-color: #000;'>");
-		pw.println("<h1 style='color: pink;'>Hello, World!");
-		pw.println("</h1>");
+		pw.println("<h1 style='color: pink;'>Hello, World!</h1>");
 		pw.println("</body></html>");
 		
 		pw.close();
